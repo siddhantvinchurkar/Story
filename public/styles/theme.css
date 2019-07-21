@@ -1,0 +1,39 @@
+/* Import all necessary styles */
+@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
+@import url('https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css');
+@import url('https://fonts.googleapis.com/icon?family=Material+Icons');
+
+/* Basic Materialize Settings */
+html{
+	background-color: #222222;
+  }
+  body{
+	font-family: 'Roboto', sans-serif;
+	display: flex;
+	min-height: 100vh;
+	flex-direction: column;
+  }
+  nav{
+	background-color: #CDDC39;
+  }
+  nav .brand-logo{
+	color: #6666FF;
+  }
+  main{
+	flex: 1 0 auto;
+  }
+  .page-footer{
+	padding-top: 0px;
+	color: #000000;
+	background-color: #CDDC39;
+  }
+  .page-footer .footer-copyright{
+	padding-top: 0px;
+	color: #000000;
+	background-color: #CDDC39;
+  }
+
+  /* Glowing shadow effect */
+  .z-depth-5-custom{
+	box-shadow: 0 16px 24px 2px rgba(205, 220, 57, 0.14), 0 6px 30px 5px rgba(205, 220, 57, 0.12), 0 8px 10px -5px rgba(0, 0, 0, 0.3);
+  }
